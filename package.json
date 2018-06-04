@@ -1,7 +1,7 @@
 {
   "name": "common-unityevent-types",
   "scope": "beatthat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The to use a UnityEvent<T> property, you need to create a subclass for each type. Rather than use inner classes over and over for this, just put the common ones in a package.",
   "main": "index.js",
   "repository": {
