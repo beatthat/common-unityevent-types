@@ -1,7 +1,7 @@
 using System;
 using UnityEngine.Events;
 
-namespace BeatThat
+namespace BeatThat.UnityEvents
 {
-	[Serializable]public class StringEvent : UnityEvent<string> { }
+    [Serializable]public class StringEvent : UnityEvent<string> { }
 }

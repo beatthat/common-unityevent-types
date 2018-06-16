@@ -1,8 +1,8 @@
 using System;
-using UnityEngine.Events;
 using UnityEngine;
+using UnityEngine.Events;
 
-namespace BeatThat
+namespace BeatThat.UnityEvents
 {
-	[Serializable]public class ColorEvent : UnityEvent<Color> { }
+    [Serializable]public class ColorEvent : UnityEvent<Color> { }
 }

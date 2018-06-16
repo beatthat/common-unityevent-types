@@ -1,8 +1,8 @@
 using System;
-using UnityEngine.Events;
 using UnityEngine;
+using UnityEngine.Events;
 
-namespace BeatThat
+namespace BeatThat.UnityEvents
 {
-	[Serializable]public class ComponentEvent : UnityEvent<Component> { }
+    [Serializable]public class ComponentEvent : UnityEvent<Component> { }
 }

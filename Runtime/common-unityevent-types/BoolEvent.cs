@@ -1,10 +1,10 @@
 using System;
 using UnityEngine.Events;
 
-namespace BeatThat
+namespace BeatThat.UnityEvents
 {
-	/// <summary>
-	/// Concrete UnityEvent<bool>
-	/// </summary>
-	[Serializable]public class BoolEvent : UnityEvent<bool> { }
+    /// <summary>
+    /// Concrete UnityEvent<bool>
+    /// </summary>
+    [Serializable]public class BoolEvent : UnityEvent<bool> { }
 }
